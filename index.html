@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+	<head>
+	<!-- 放置css meta title-->
+		<meta charset="utf-8" />
+		<title>Canvas Game</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/png" href="favicon.png" />
+		<meta http-equiv="Cache-control" content="public" />
+		<meta name="author" content="Billy Ji" />
+		<meta name="copyright" content="Billy Ji" />
+		<meta name="keywords" content="" />
+		<meta name="description"  content="" />
+		<meta name="distribution" content="Taiwan" />
+		<meta name="robots" content="all" />
+
+		<!-- 瀏覽器支援度 -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=9" />
+		<!-- 瀏覽器支援度 END -->
+
+		<meta content="INDEX, FOLLOW" name='ROBOTS' />
+		<meta content="3 DAYS" name='REVISIT-AFTER' />
+
+		<!-- share -->
+		<meta property="og:title" content=""/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:url" content="" />
+		<meta property="og:image" content="" />
+		<meta property="og:site_name" content="" />
+		<meta property="og:description" content="" />
+		<!--  share END -->
+
+
+		<!--css-->
+		<link rel="stylesheet" href="css/reset.css" type="text/css">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+		<!-- Roboto 字型 -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+		<link rel="stylesheet" href="css/all.css" type="text/css">
+
+
+	</head>
+
+	<!-- ontouchstart iphone hover支援 -->
+	<body ontouchstart>
+		<div class="game">
+
+			<div class="game-init">
+				<p class="text">
+					你身負著運送能量電池的任務 <br>
+					卻遭到幾何星人的埋伏 <br>
+					請協助從他們的手中奪回能量電池
+				</p>
+				<div class="center-part">
+					
+					<h3>Radio Defense</h3>
+					<a href="javascript:;" class="start-btn">Strat Game</a>
+				</div>
+				<canvas id="canvas">
+
+				</canvas>
+			</div>
+
+			<div class="game-start">
+				<div class="center-info">
+					<h3>遊戲即將開始</h3>
+					<div class="time" id="time"></div>
+				</div>
+
+			</div>
+		</div>
+
+
+		<!--JavaScript-->
+
+			<!-- plugins -->
+
+			<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+			
+			<!-- customized -->
+			<script src="js/all.js" type="text/javascript" defer></script>
+
+			<!-- // customized -->
+
+		<!-- // JavaScript-->
+
+
+	</body>
+</html>
